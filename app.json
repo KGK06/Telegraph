@@ -1,14 +1,14 @@
 {
   "name": "Telegra.ph upload bot",
   "description": "You can upload photos on telegra.ph using this bot.",
-  "repository": "https://github.com/Nimeshchandhra1/telegraphbot/tree/Npatch",
+  "repository": "https://github.com/Nimeshchandhra1/telegraphbot/tree/patch-1",
   "logo": "https://raw.githubusercontent.com/HasibulKabir/Raw-Package/master/IMG_20200526_114905_024.jpg",
   "keywords": [
     "bot",
     "telegram",
     "telegra.ph",
-    "hasibul",
-    "Bangladesh"
+    "nc",
+    "India"
   ],
   "env": {
      "BOT_TOKEN": {

@@ -11,7 +11,7 @@ logger.setLevel(logging.INFO)
 
 
 def start_cmd(update, context):
-    update.message.reply_text(f"Hello ***{update.message.from_user.first_name}***.\n\nI can upload photos from telegram to telegra.ph 🤫\n\n``Bot By Nimesh chandhra``")
+    update.message.reply_text(f"Hello **{update.message.from_user.first_name}**.\n\nI can upload photos from telegram to telegra.ph 🤫\n\n__Bot By Nimesh chandhra__")
 
 
 def upload_cmd(update, context):
@@ -25,7 +25,7 @@ def upload_cmd(update, context):
         update.message.reply_text(f"Failed to upload. Reason: {err}")
         return
     url = "https://telegra.ph" + info[0].get("src")
-    update.message.reply_text(url)\n\n Bot By NC
+    update.message.reply_text(url)
     os.remove(f'{str(update.message.from_user.id)}.jpg')
 
 

@@ -48,7 +48,7 @@ def upload(update, context):
         update.message.reply_text(f"Failed to upload. Reason: {err}")
         return
     url = "https://telegra.ph" + info[0].get("src")
-    update.message.reply_text(url)         **Bot By NC**
+    update.message.reply_text(url)
     os.remove(f'{str(update.message.from_user.id)}.jpg')
 
 
